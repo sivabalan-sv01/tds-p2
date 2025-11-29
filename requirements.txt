@@ -13,5 +13,8 @@ pydantic==2.5.0
 python-multipart==0.0.6
 webdriver-manager==4.0.1
 openai-whisper
-ffmpeg
-mangum==0.17.0
+python-dotenv==1.0.0
+
+# System dependencies (not installable via pip, must be installed via system package manager):
+# - ffmpeg (required for audio conversion in transcribe_audio function)
+# Note: These are automatically installed in Dockerfile via apt-get
